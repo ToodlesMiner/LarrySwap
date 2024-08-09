@@ -51,13 +51,13 @@ const UserMenuItems = () => {
 
   return (
     <>
-      <WalletUserMenuItem isWrongNetwork={isWrongNetwork} onPresentWalletModal={onClickWalletMenu} />
+      {/* <WalletUserMenuItem isWrongNetwork={isWrongNetwork} onPresentWalletModal={onClickWalletMenu} />
       <UserMenuItem as="button" disabled={isWrongNetwork} onClick={onPresentTransactionModal}>
         {t('Recent Transactions')}
         {hasPendingTransactions && <RefreshIcon spin />}
-      </UserMenuItem>
-      <UserMenuDivider />
-      <NextLink href={`/profile/${account?.toLowerCase()}`} passHref>
+      </UserMenuItem> */}
+      {/* <UserMenuDivider /> */}
+      {/* <NextLink href={`/profile/${account?.toLowerCase()}`} passHref>
         <UserMenuItem disabled={isWrongNetwork || chainId !== ChainId.BSC}>{t('Your NFTs')}</UserMenuItem>
       </NextLink>
       {shouldShowModal && <ClaimYourNFT />}
@@ -65,8 +65,8 @@ const UserMenuItems = () => {
         isLoading={isLoading}
         hasProfile={hasProfile}
         disabled={isWrongNetwork || chainId !== ChainId.BSC}
-      />
-      <UserMenuDivider />
+      /> */}
+      {/* <UserMenuDivider /> */}
       <UserMenuItem as="button" onClick={logout}>
         <Flex alignItems="center" justifyContent="space-between" width="100%">
           {t('Disconnect')}

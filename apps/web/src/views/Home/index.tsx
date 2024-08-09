@@ -71,7 +71,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
           }
         `}
       </style>
-      <StyledHeroSection
+      {/* <StyledHeroSection
         innerProps={{ style: { margin: '0', width: '100%', overflow: 'visible', padding: '16px' } }}
         containerProps={{
           id: 'home-1',
@@ -81,8 +81,8 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       >
         <MultipleBanner />
         <Hero />
-      </StyledHeroSection>
-      <PageSection
+      </StyledHeroSection> */}
+      {/* <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
         containerProps={{
           id: 'home-2',
@@ -107,7 +107,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
           </InnerWedgeWrapper>
         </OuterWedgeWrapper>
         <EcoSystemSection />
-      </PageSection>
+      </PageSection> */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
@@ -160,7 +160,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        <NewsSection />
+        {/* <NewsSection /> */}
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
