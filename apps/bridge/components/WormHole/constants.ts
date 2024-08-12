@@ -1,5 +1,5 @@
 import { MainnetChainName, TestnetChainName } from '@wormhole-foundation/wormhole-connect'
-import { arbitrum, arbitrumGoerli, base, baseGoerli, bscTestnet, mainnet as ethereum, goerli } from 'wagmi/chains'
+import { arbitrum, arbitrumGoerli, base, baseGoerli, bscTestnet, goerli, mainnet as ethereum } from 'wagmi/chains'
 import { getNodeRealUrl } from '../../utils/nodes/nodereal'
 import { getGroveUrl } from '../../utils/nodes/pokt'
 import { WormholeChainIds } from './chains'
@@ -82,6 +82,13 @@ export const NETWORK_CONFIG: { [network in NETWORKS]: Network } = {
     mainnetRpc: 'https://aptos-mainnet.nodereal.io/v1',
     testnetRpc: 'https://fullnode.devnet.aptoslabs.com/v1',
   },
+  // [NETWORKS.PULSECHAIN]: {
+  //   name: 'PulseChain',
+  //   testnet: 'PulseChain',
+  //   mainnet: 'PulseChain',
+  //   mainnetRpc: 'https://rpc.pulsechain.com',
+  //   testnetRpc: 'https://rpc.v4.testnet.pulsechain.com',
+  // },
 }
 
 export const WORMHOLE_NETWORKS = Object.values(NETWORK_CONFIG)
