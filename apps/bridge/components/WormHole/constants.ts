@@ -20,6 +20,7 @@ enum NETWORKS {
   ARBITRUM_ONE = 'arbitrum',
   BASE = 'base',
   APTOS = 'aptos',
+  PULSECHAIN = 'pls',
 }
 
 export const NETWORK_CONFIG: { [network in NETWORKS]: Network } = {
@@ -82,13 +83,13 @@ export const NETWORK_CONFIG: { [network in NETWORKS]: Network } = {
     mainnetRpc: 'https://aptos-mainnet.nodereal.io/v1',
     testnetRpc: 'https://fullnode.devnet.aptoslabs.com/v1',
   },
-  // [NETWORKS.PULSECHAIN]: {
-  //   name: 'PulseChain',
-  //   testnet: 'PulseChain',
-  //   mainnet: 'PulseChain',
-  //   mainnetRpc: 'https://rpc.pulsechain.com',
-  //   testnetRpc: 'https://rpc.v4.testnet.pulsechain.com',
-  // },
+  [NETWORKS.PULSECHAIN]: {
+    name: 'PulseChain',
+    testnet: 'PulseChain',
+    mainnet: 'PulseChain',
+    mainnetRpc: 'https://rpc.pulsechain.com',
+    testnetRpc: 'https://rpc.v4.testnet.pulsechain.com',
+  },
 }
 
 export const WORMHOLE_NETWORKS = Object.values(NETWORK_CONFIG)

@@ -4,6 +4,7 @@ export enum WormholeChainIds {
   ETHEREUM = ChainId.ETHEREUM,
   GOERLI = ChainId.GOERLI,
   BSC = ChainId.BSC,
+  PULSE = ChainId.PULSE,
   BSC_TESTNET = ChainId.BSC_TESTNET,
   ARBITRUM_ONE = ChainId.ARBITRUM_ONE,
   ARBITRUM_GOERLI = ChainId.ARBITRUM_GOERLI,

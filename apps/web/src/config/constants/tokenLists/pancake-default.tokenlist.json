@@ -507,6 +507,22 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
+      "name": "Pulse",
+      "symbol": "PLS",
+      "address": "0xcdc91cb7fd40cf63190ec1bb17356b1ef350a080",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*qUZwCrrK6MDSTio2NjHmAA.png"
+    },
+    {
+      "name": "Wrapped Pulse",
+      "symbol": "WPLS",
+      "address": "0xA882606494D86804B5514E07e6Bd2D6a6eE6d68A",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*qUZwCrrK6MDSTio2NjHmAA.png"
+    },
+    {
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0xCF712f20c85421d00EAa1B6F6545AaEEb4492B75",

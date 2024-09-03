@@ -1,13 +1,9 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, PageSection, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, PageSection, useMatchBreakpoints } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
-import CakeDataRow from './components/CakeDataRow'
-import CakeSection from './components/CakeSection'
-import CommunitySection from './components/CommunitySection'
 import { RightTopBox } from './components/CommunitySection/ImagesOnBg'
 import Footer from './components/Footer'
-import { InnerWedgeWrapper, OuterWedgeWrapper, WedgeBottomRight, WedgeTopRight } from './components/WedgeSvgs'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;
@@ -97,7 +93,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         </OuterWedgeWrapper>
         <EcoSystemSection />
       </PageSection> */}
-      <PageSection
+      {/* <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
         containerProps={{
@@ -114,7 +110,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         <CakeSection />
         <Flex style={{ gap: 5 }} justifyContent="center" mt="40px">
           <Text fontSize={24} bold>
-            {t('CAKE')}
+            {t('ALPHA')}
           </Text>
           <Text fontSize={24} bold color="secondary">
             {t('Figures')}
@@ -126,7 +122,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
             <WedgeBottomRight />
           </InnerWedgeWrapper>
         </OuterWedgeWrapper>
-      </PageSection>
+      </PageSection> */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         containerProps={{
@@ -136,7 +132,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         hasCurvedDivider={false}
       >
         <RightTopBox />
-        <CommunitySection />
+        {/* <CommunitySection /> */}
       </PageSection>
       <PageSection
         innerProps={{
